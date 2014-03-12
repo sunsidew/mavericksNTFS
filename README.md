@@ -1,4 +1,4 @@
-OSX Mavericks NTFS Enble script
+OSX Mavericks NTFS Enabling Script
 ==============
 
 Open mac terminal and run following commands, That's all.
