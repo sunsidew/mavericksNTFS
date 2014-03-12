@@ -68,7 +68,9 @@ file.close()
 print "Eject Drive: " + ntfs
 commands.getstatusoutput("diskutil unmount /Volumes/" + ntfs)
 
+print "generate Desktop Shortcut for NTFS Drive"
+commands.getstatusoutput("ln -s /Volumes ~/Desktop/Drives")
+
 print "Well done..."
 print "Please remove and reconnect user USB NTFS drive and test it!"
 print "Thank you"
-
