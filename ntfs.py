@@ -65,6 +65,8 @@ else:
 
 file.write(line)
 file.close()
+print "Eject Drive: " + ntfs
+commands.getstatusoutput("diskutil unmount /Volumes/" + ntfs)
 
 print "Well done..."
 print "Please remove and reconnect user USB NTFS drive and test it!"
