@@ -25,7 +25,7 @@ x = raw_input()
 
 #detect NTFS volumes
 print "Detect NTFS Volumes ",
-check(1)
+check(10)
 vol2 = os.listdir("/Volumes");
 clist = []
 detect = []
