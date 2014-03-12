@@ -66,4 +66,7 @@ else:
 file.write(line)
 file.close()
 
-print "Well done. Test it!!"
+print "Well done..."
+print "Please remove and reconnect user USB NTFS drive and test it!"
+print "Thank you"
+
